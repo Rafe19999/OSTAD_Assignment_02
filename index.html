@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&family=Inter:wght@100..900&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>PureHealth</title>
+</head>
+
+<body class="font-sans">
+
+  <!-- ================= TOP HEADER ================= -->
+  <header class="bg-[#155DFC] text-white px-4 lg:px-20 py-3">
+    <div class="flex flex-col lg:flex-row justify-between items-center gap-3 text-sm">
+
+      <!-- Left -->
+      <div class="flex flex-col sm:flex-row items-center gap-3 text-center">
+        <div class="flex items-center gap-2">
+          <img class="w-[18px] h-[18px]" src="Assets/phone 4.png">
+          <p>+1 (123) 456-7890</p>
+        </div>
+
+        <span class="hidden sm:block">|</span>
+
+        <div class="flex items-center gap-2">
+          <img class="w-[18px] h-[18px]" src="Assets/envelope 1.png">
+          <p>hello@medicare.com</p>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div class="flex flex-wrap justify-center items-center gap-3 text-sm">
+
+        <p>Follow Us:</p>
+
+        <div class="flex gap-2">
+          <img class="w-[14px] h-[14px]" src="Assets/facebook.png">
+          <img class="w-[14px] h-[14px]" src="Assets/twitter.png">
+          <img class="w-[14px] h-[14px]" src="Assets/linkedin.png">
+          <img class="w-[14px] h-[14px]" src="Assets/instagram.png">
+        </div>
+
+        <span class="hidden sm:block">|</span>
+
+        <div class="flex items-center gap-2">
+          <img class="w-[16px] h-[16px]" src="Assets/Earth.png">
+          <p>EN</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= NAVBAR ================= -->
+  <section class="px-4 lg:px-20 py-4 flex flex-col lg:flex-row justify-between items-center gap-4">
+
+    <!-- Logo -->
+    <div class="flex items-center gap-2">
+      <img class="w-[40px]" src="Assets/patient.png">
+      <h3 class="text-2xl font-bold text-[#0D9488]">PureHealth</h3>
+    </div>
+
+    <!-- Menu -->
+    <nav class="flex flex-wrap justify-center items-center gap-4 font-semibold text-sm">
+
+      <a class="text-[#155DFC]" href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Pages</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+
+      <a class="bg-[#155DFC] text-white px-4 py-2 rounded-full" href="#">
+        Appointment <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+    </nav>
+
+  </section>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="bg-gray-100 px-4 lg:px-20 py-10 flex flex-col lg:flex-row items-center justify-between gap-10">
+
+    <!-- Text Content -->
+    <div class="flex-1 text-center lg:text-left">
+
+      <span class="bg-[#0D9488] text-white px-4 py-1 rounded-full text-sm">
+        Health comes first
+      </span>
+
+      <h1 class="mt-4 text-3xl sm:text-5xl lg:text-7xl font-bold leading-tight">
+        Smart Health <br>
+        <span class="text-[#155DFC]">Solutions</span>
+      </h1>
+      <img class="relative left-80 bottom-16 hidden lg:block" src="Assets/marking.png" alt="marking">
+
+      <p class="mt-4 text-gray-600 text-sm sm:text-base">
+        Book virtual consultations with top specialists in minutes.
+        We put your health first. Book your appointment now.
+      </p>
+
+      <!-- Buttons -->
+      <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
+
+        <a class="bg-[#155DFC] text-white px-5 py-2 rounded-xl font-semibold">
+          <i class="fa-solid fa-user"></i> Find a Doctor
+        </a>
+
+        <a class="bg-white border border-[#155DFC] text-[#155DFC] px-5 py-2 rounded-xl font-semibold">
+          <i class="fa-solid fa-phone"></i> Emergency Help
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- Image -->
+    <div class="flex-1 flex justify-center">
+      <img class="w-full max-w-[450px]" src="Assets/erasebg-transformed 1.png">
+    </div>
+
+  </section>
+
+  <!-- ================= ABOUT US SECTION ================= -->
+  <section class="flex flex-col lg:flex-row justify-evenly mt-20 lg:mt-32 gap-10 px-4 lg:px-0">
+
+    <!-- LEFT SIDE -->
+    <div class="w-full lg:w-[555px]">
+
+      <!-- Top Images -->
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+
+        <img class="w-80 h-[429px] object-cover" src="Assets/img.png" alt="doctors">
+
+        <div class="bg-[#0D9488] text-white w-44 h-44 flex flex-col items-center justify-center rounded-xl text-center">
+          <p class="text-5xl font-bold leading-none">85%</p>
+          <span class="text-[16px] mt-2">Successful Diagnosis</span>
+        </div>
+
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="mt-4 ml-6 flex flex-wrap items-start gap-4">
+
+        <div
+          class="bg-[#0D9488] w-[236px] h-[71px] font-semibold flex  justify-center items-center rounded-xl gap-3 p-3">
+          <i class="fa-solid fa-check bg-white p-2 rounded-2xl"></i>
+          <p class="text-white">with 15+ years of experience</p>
+        </div>
+
+
+        <img class="w-[272px] h-[331px] lg:relative lg:bottom-64 lg:left-2" src="Assets/Rectangle 1.png"
+          alt="another_surgery_photo">
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="w-full lg:w-[555px]">
+
+      <div>
+        <p class="text-lg text-[#155DFC] font-medium">
+          Compassionate Care, Advanced Technology
+        </p>
+
+        <h1 class="text-3xl lg:text-5xl font-bold mt-1.5 leading-tight">
+          Trusted Healthcare for <br> Your Family
+        </h1>
+
+        <p class="text-[#7A7A7A] mt-5 text-sm lg:text-base">
+          Since 2005, we’ve provided world-class medical services with a patient-first
+          approach. Our board-certified doctors and cutting-edge facilities ensure the best outcomes.
+        </p>
+      </div>
+
+      <!-- FEATURES -->
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+        <div class="flex gap-4 items-center">
+          <i class="fa-solid fa-check text-[#0D9488] text-xl"></i>
+          <p class="font-semibold">24/7 Emergency Care</p>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          <i class="fa-solid fa-check text-[#0D9488] text-xl"></i>
+          <p class="font-semibold">JCI-Accredited Facility</p>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          <i class="fa-solid fa-check text-[#0D9488] text-xl"></i>
+          <p class="font-semibold">50+ Specialist Doctors</p>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          <i class="fa-solid fa-check text-[#0D9488] text-xl"></i>
+          <p class="font-semibold">Advanced Technology</p>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          <i class="fa-solid fa-check text-[#0D9488] text-xl"></i>
+          <p class="font-semibold">98% Patient Satisfaction</p>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          <i class="fa-solid fa-check text-[#0D9488] text-xl"></i>
+          <p class="font-semibold">Multilingual Staff</p>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          <i class="fa-solid fa-check text-[#0D9488] text-xl"></i>
+          <p class="font-semibold">Free Consultations</p>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          <i class="fa-solid fa-check text-[#0D9488] text-xl"></i>
+          <p class="font-semibold">Holistic Approach</p>
+        </div>
+
+      </div>
+
+      <!-- BUTTON -->
+      <a class="inline-block mt-6 bg-[#155DFC] text-white px-6 py-3 rounded-2xl font-semibold" href="#">
+        Meet Our Team <i class="fa-solid fa-angle-right ml-2"></i>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- ================= OUT DEPARTMENTS SECTION ================= -->
+  <section class=" bg-blue-50">
+
+    <div class="w-4/5 m-auto lg:py-[120px] py-8">
+
+      <!-- Heading Section -->
+      <p class="text-[#155DFC] font-semibold">Our medical Departments</p>
+      <h3 class="text-5xl font-bold">Complete Wellness Solutions
+        For Every Stage of Life</h3>
+
+      <!-- Card Section -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 lg:px-0">
+
+        <!-- CARD -->
+        <div class="w-full max-w-[360px] h-[355px] bg-white rounded-xl mt-12 pt-12 pl-8 flex flex-col gap-3">
+
+          <img class="w-[95px] h-[95px] p-5 bg-[#155DFC] rounded-full" src="Assets/Brain.png" alt="brain">
+
+          <h4 class="font-semibold text-[20px]">Neurology</h4>
+
+          <p class="text-[#7A7A7A] pr-8">
+            Advanced stroke, Alzheimer, epilepsy, and nerve disorders with cutting-edge neuroimaging and minimally.
+          </p>
+
+          <a class="text-[#155DFC] font-semibold" href="#">
+            Read More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="w-full max-w-[360px] h-[355px] bg-white rounded-xl mt-12 pt-12 pl-8 flex flex-col gap-3">
+
+          <img class="w-[95px] h-[95px] p-5 bg-[#0D9488] rounded-full" src="Assets/Brain.png" alt="brain">
+
+          <h4 class="font-semibold text-[20px]">Neurology</h4>
+
+          <p class="text-[#7A7A7A] pr-8">
+            Advanced stroke, Alzheimer, epilepsy, and nerve disorders with cutting-edge neuroimaging and minimally.
+          </p>
+
+          <a class="text-[#0D9488] font-semibold" href="#">
+            Read More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="w-full max-w-[360px] h-[355px] bg-white rounded-xl mt-12 pt-12 pl-8 flex flex-col gap-3">
+
+          <img class="w-[95px] h-[95px] p-5 bg-[#155DFC] rounded-full" src="Assets/Frame 9.png" alt="pediatrics">
+
+          <h4 class="font-semibold text-[20px]">Pediatrics</h4>
+
+          <p class="text-[#7A7A7A] pr-8">
+            Specialized care for children from birth to adolescence, including vaccinations, growth.
+          </p>
+
+          <a class="text-[#155DFC] font-semibold" href="#">
+            Read More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="w-full max-w-[360px] h-[355px] bg-white rounded-xl mt-12 pt-12 pl-8 flex flex-col gap-3">
+
+          <img class="w-[95px] h-[95px] p-5 bg-[#155DFC] rounded-full" src="Assets/Frame 9 (1).png"
+            alt="dermatology">
+
+          <h4 class="font-semibold text-[20px]">Dermatology</h4>
+
+          <p class="text-[#7A7A7A] pr-8">
+            Medical and cosmetic skin treatments for acne, psoriasis, skin cancer screening, and anti-aging therapies.
+          </p>
+
+          <a class="text-[#155DFC] font-semibold" href="#">
+            Read More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="w-full max-w-[360px] h-[355px] bg-white rounded-xl mt-12 pt-12 pl-8 flex flex-col gap-3">
+
+          <img class="w-[95px] h-[95px] p-5 bg-[#155DFC] rounded-full" src="Assets/doctor-male-outline.png"
+            alt="maternity">
+
+          <h4 class="font-semibold text-[20px]">Maternity</h4>
+
+          <p class="text-[#7A7A7A] pr-8">
+            Complete prenatal classes, delivery suites, and postnatal support for mothers and babies.
+          </p>
+
+          <a class="text-[#155DFC] font-semibold" href="#">
+            Read More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="w-full max-w-[360px] h-[355px] bg-white rounded-xl mt-12 pt-12 pl-8 flex flex-col gap-3">
+
+          <img class="w-[95px] h-[95px] p-5 bg-[#155DFC] rounded-full" src="Assets/dna-broken.png" alt="oncology">
+
+          <h4 class="font-semibold text-[20px]">Oncology</h4>
+
+          <p class="text-[#7A7A7A] pr-8">
+            Personalized chemotherapy, radiation therapy, and immunotherapy plans with 24/7 patient support.
+          </p>
+
+          <a class="text-[#155DFC] font-semibold" href="#">
+            Read More <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+</body>
+
+</html>
